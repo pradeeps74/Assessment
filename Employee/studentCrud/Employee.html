@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee</title>
+</head>
+<body>
+<div align="center">
+<form action="SaveServlet" method="post">
+<h1>Employee Form</h1>
+<table>
+<tr><td>Id:</td>
+<td><input type="text" name="txtId"></td>
+</tr>
+<tr><td>EmpId:</td>
+<td><input type="text" name="txtEmpId"></td>
+</tr>
+<tr><td>Name:</td>
+<td><input type="text" name="txtEmpName"></td>
+</tr>
+<tr><td>Age:</td>
+<td><input type="text" name="txtEmpAge"></td>
+</tr>
+<tr>
+<tr><td>Designations:</td><td>  
+<select name="designations" style="width:150px">  
+<option>Developer</option>  
+<option>Tester</option>  
+<option>Full stack developer</option>  
+<option>Other</option>  
+</select>  
+</td></tr>   
+<tr><td>Phone Number:</td>
+<td> <input type="tel" name="txtEmpPhoneNum"></td></tr>
+<tr><td>Salary:</td>
+<td> <input type="text" name="txtSalary"></td></tr>
+
+<tr><td><input type="submit" value="Save Employee" name="txtSave"></td></tr>
+</table>
+</form>
+<a href="ViewServlet" style="position:center;">View Employee</a>
+</div>
+
+
+</body>
+</html>
